@@ -1,0 +1,13 @@
+{
+  "name": "my-nodered-cloud",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node_modules/.bin/node-red --userDir . --settings settings.js --port $PORT"
+  },
+  "dependencies": {
+    "node-red": "latest",
+    "bcryptjs": "latest",
+    "@flowfuse/node-red-dashboard": "latest",
+    "node-red-contrib-postgresql": "latest"
+  }
+}
